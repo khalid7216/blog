@@ -1,0 +1,109 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.food-items {
+    display: flex;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.back-img {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/57a100f7e4fcb592ee30586c/1515382496530-IE1DRM7ZJBEY9SKCYPN9/Depositphotos_162692674_l-2015.jpg?format=1500w');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 3.5px;
+}
+
+.search-1 {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font: 1em sans-serif;
+}
+
+.search-1 input {
+    padding: 10px 25px;
+    font-size: 16px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.button1 {
+    padding: 20px;
+}
+
+.button1 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #ff914d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button1 button i {
+    margin-right: 8px;
+    
+}
+.recipe-list{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff914d;
+    font-size: 20px;
+    cursor: pointer;
+}
+.recent{
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-around;
+    color: #ff914d;
+    cursor: pointer;
+}
+.boxes{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 20px;
+    display: flex;
+display:inline-block;    
+    
+    
+}
+.sandwich{
+    text-align: center;
+    cursor: pointer;
+    color: #ff914d;
+}
+.title{
+    display: flex;
+    
+}
+.home-made{
+    padding: 10px;
+    color: #ff914d;
+}
+.listing{
+    /* list-style: ; */
+    
+    display: list-item;
+
+    }
